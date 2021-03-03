@@ -1,1 +1,0 @@
-A full stack single-page application built with MongoDB, Express.js, React.js, and Node.js. Users can rate and write reviews for movies. It works with the OMDb API to obtain movies information. It includes Create, Read, Update, and Delete operations(CRUD), multiple data models for database relationships, and user authentication and authorization.
