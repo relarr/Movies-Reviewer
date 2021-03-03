@@ -1,0 +1,38 @@
+.update-movie {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.update-movie p {
+    font-weight: bold;
+    color: rgb(124, 81, 0);
+}
+
+.update-movie textarea {
+    width: 250px;
+    height: 135px;
+    resize: none;
+}
+
+.update-movie--rate {
+    margin-top: -0.5rem;
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+}
+
+.update-movie--buttons {
+    padding-top: 2.5rem;    
+}
+
+@media (max-width: 768px){
+    .update-movie textarea {
+        width: 200px;
+    }
+
+    .update-movie--rate {
+        margin-top: -0.5rem;
+        padding-left: 3.2rem;
+        padding-bottom: 1rem;
+    }
+}

@@ -1,0 +1,16 @@
+.users-list {
+  margin: 0 auto;
+  max-width: 60rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .users-list {
+      left: calc(50% - 20rem);
+      padding-left: 1rem;
+      padding-right: 1rem;
+      width: 20rem;
+    }
+}

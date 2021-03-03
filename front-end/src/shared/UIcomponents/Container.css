@@ -1,0 +1,27 @@
+.container {
+    display: block;
+    width: 320px;
+    height: 320px;
+    box-shadow: 8px 8px 8px rgb(65, 71, 175);
+    border-radius: 35px;
+    padding: 1.5rem;
+    overflow: hidden;
+    background: rgb(199, 196, 8);
+    margin: 1rem;
+}
+
+.container:hover {
+    background: rgb(64, 197, 188);
+    box-shadow: 8px 8px 8px rgb(199, 196, 8);
+}
+
+.container--avatar {
+    height: auto;
+    
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 300px;
+    }
+}

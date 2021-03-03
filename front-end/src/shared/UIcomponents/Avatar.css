@@ -1,0 +1,39 @@
+.avatar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar img {
+    display: flex;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+}
+
+.avatar label {
+    display: block;
+    float: left;
+    width: auto;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    color: rgb(124, 81, 0);
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.avatar h4 {
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 7rem;
+    color: rgb(124, 81, 0);
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+}
+

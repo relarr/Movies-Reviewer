@@ -1,0 +1,25 @@
+.form-control {
+    margin: 1rem;
+    color: rgb(124, 81, 0);
+}
+
+.form-control--invalid label {
+    color: rgb(230, 92, 38);
+}
+
+.form-control--invalid input,
+.form-control--invalid textarea {
+    border-color: rgb(82, 14, 14);
+    background: rgb(230, 92, 38);
+}
+
+.form-control--uneditable input:focus,
+.form-control--uneditable textarea:focus {
+    outline: none;
+}
+
+@media (max-width: 768px){
+    .form-control {
+        margin: 1rem;
+    }
+}

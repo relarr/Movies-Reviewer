@@ -1,0 +1,9 @@
+.auth {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.auth input {
+    height: 20px;
+}

@@ -1,0 +1,49 @@
+.navigation-burger {
+    width: 3rem;
+    height: 3rem;
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.navigation-burger span {
+    display: block;
+    width: 3rem;
+    height: 7px;
+    border-radius: 30%;
+    background: rgb(199, 196, 8);
+}
+
+.navigation-title a {
+    text-decoration: none;
+    color: rgb(199, 196, 8);
+    font-size: 15px;
+    
+}
+
+.navigation-header {
+    display: none;
+}
+
+.navigation-sidedrawer {
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    .navigation-title a {
+        font-size: 20px;
+        padding-left: 2rem;
+    }
+
+    .navigation-burger {
+      display: none;
+    }
+  
+    .navigation-header {
+      display: block;
+    }
+  }

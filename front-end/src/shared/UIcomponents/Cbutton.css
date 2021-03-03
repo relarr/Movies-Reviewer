@@ -1,0 +1,49 @@
+.Cbutton {
+    background: rgb(124, 81, 0);
+    color: rgb(52, 161, 154);
+    width: auto;
+    height: 45px;
+    border-radius: 25%;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.Cbutton:hover,
+.Cbutton:active {
+    background: rgb(177, 116, 3);
+    color: rgb(64, 197, 188);
+}
+
+.Cbutton--reversed {
+    text-shadow: 2px 2px 4px #000000;
+    background: rgb(52, 161, 154);
+    color: rgb(199, 196, 8);
+}
+
+.Cbutton--reversed:hover,
+.Cbutton--reversed:active {
+    background: rgb(64, 197, 188);
+    color: rgb(231, 228, 10);
+}
+
+.Cbutton--danger {
+    background: rgb(230, 92, 38);
+    color: rgb(90, 70, 70);
+}
+
+.Cbutton--danger:hover,
+.Cbutton--danger:active {
+    background: rgb(90, 70, 70);
+    color: rgb(230, 92, 38);
+}
+
+.Cbutton:disabled {
+    background: rgb(148, 149, 158);
+    color: rgb(198, 198, 202);
+    cursor: not-allowed;
+}
