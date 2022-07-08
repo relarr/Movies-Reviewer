@@ -1,0 +1,81 @@
+.review-container {
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  padding: 0.5rem;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 228, 0.1)
+  );
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.review-container a {
+  text-decoration: none;
+}
+
+.review-container:hover {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 228, 0.3)
+  );
+  box-shadow: 8px 8px 8px #dddf95f6;
+}
+
+.review-container:hover p {
+  color: var(--main-red);
+}
+
+.review-poster {
+  width: 25%;
+  height: 100%;
+  text-align: center;
+}
+
+.review-poster img {
+  width: 4.5rem;
+  height: 6.5rem;
+  padding-top: 0.3rem;
+}
+
+.review-movie-info {
+  width: 50%;
+}
+
+.review-movie-info p {
+  margin: 0.3rem;
+  color: #dcdd94f6;
+  font-size: small;
+  text-align: center;
+}
+
+.review-buttons {
+  width: 25%;
+  margin: 0 0.2rem;
+  text-align: center;
+}
+
+.error {
+  display: block;
+}
+
+@media (min-width: 40rem) {
+  .review-container {
+    width: 55%;
+    min-width: 23rem;
+    max-width: 42rem;
+  }
+
+  .review-movie-info p {
+    font-size: 14px;
+  }
+
+  .review-buttons {
+    margin: 0 1rem 0.5rem 0;
+  }
+}

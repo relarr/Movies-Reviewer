@@ -1,0 +1,79 @@
+.new-review {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  margin-top: 2rem;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.new-review input {
+  width: 10rem;
+}
+
+.error-text {
+  font-size: x-small;
+  align-self: start;
+  margin: 0;
+}
+
+.movie-info {
+  font-size: small;
+  color: #ae7cee;
+  text-align: center;
+  margin: 0.3rem;
+}
+
+.movie-info p {
+  display: inline;
+  margin: 0.5rem;
+}
+
+.movie-info img {
+  width: 85%;
+  height: 80%;
+}
+
+.confirm-button {
+  text-align: center;
+}
+
+.rating-stars {
+  display: flex;
+}
+
+.movie-review {
+  width: 75%;
+  height: 100%;
+  text-align: right;
+  margin-left: 5%;
+}
+
+.movie-review textarea {
+  width: 100%;
+}
+
+.movie-review-image {
+  width: 25%;
+}
+
+.movie-review-image img {
+  width: 80%;
+}
+
+.error {
+  color: #ff0000;
+  font-size: x-small;
+  align-self: start;
+  margin: 0 0.2rem;
+}
+
+@media (min-width: 40rem) {
+  .movie-info img {
+    width: 18rem;
+  }
+
+  .movie-review-image img {
+    max-width: 8rem;
+  }
+}

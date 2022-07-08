@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Fredoka One', cursive;
+  background: linear-gradient(to right top, #5f16b3, #38adf1);
+  background-attachment: fixed;
+}
+
+:root {
+  --main-red: #6b5fdbf6;
+}
+
+.input {
+  background: #e4ecd8;
+  width: 90%;
+  height: 1.5rem;
+  margin: 0.4rem 0;
+  padding: 0 0.4rem;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px #a6d85c;
+}
+
+input:focus {
+  outline: none;
+}
+
+.invalid {
+  background: #fca4a4;
+  box-shadow: 2px 2px 2px #e97777;
+}
+
+.error-text {
+  color: #ff0000;
+  font-size: x-small;
+  align-self: start;
+  margin: 0 6%;
+  padding-left: 1.5rem;
+}

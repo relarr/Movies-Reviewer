@@ -1,0 +1,36 @@
+.drop-on-hover {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+}
+
+.drop-button {
+  padding: 0 0.4rem;
+  font-family: inherit;
+  color: #ae7cee;
+  background: #e0e478f6;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+.content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  background: linear-gradient(
+    to left top,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.9)
+  );
+  border-radius: 10px;
+  color: var(--main-red);
+  font-size: x-small;
+  padding: 0.3rem;
+}
+
+.drop-on-hover:hover .content {
+  display: block;
+}

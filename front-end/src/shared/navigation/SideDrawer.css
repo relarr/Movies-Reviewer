@@ -1,0 +1,36 @@
+.side-drawer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  height: 100vh;
+  width: 60%;
+  background: linear-gradient(to right top, #5f16b3, #38adf1);
+}
+
+.slide-in-enter {
+  transform: translateX(-100%);
+}
+
+.slide-in-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 300ms;
+}
+
+.slide-in-exit {
+  transform: translate(0%);
+  opacity: 1;
+}
+
+.slide-in-exit-active {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 300ms;
+}
+
+@media (min-width: 40rem) {
+  .side-drawer {
+    display: none;
+  }
+}

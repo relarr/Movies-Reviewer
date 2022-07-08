@@ -1,0 +1,40 @@
+.container {
+  width: 60%;
+  height: 6rem;
+  border-radius: 15px;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.2)
+  );
+  margin: 0.7rem;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.container:hover {
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.4)
+  );
+}
+
+.top-margin {
+  margin-top: 8rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 1rem;
+  text-align: center;
+  color: var(--main-red);
+}
+
+@media (min-width: 40rem) {
+  .container {
+    width: 20%;
+    min-width: 15rem;
+    max-width: 30rem;
+  }
+}
